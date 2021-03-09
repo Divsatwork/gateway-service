@@ -1,0 +1,16 @@
+BACKUP_SERVICE:
+  apis:
+    - /backup
+    - /backup/file
+  host: 0.0.0.0
+  name: backup_service
+  port: 8080
+
+USER_SERVICE:
+  apis:
+    - /user
+    - /auth
+  host: 0.0.0.0
+  name: user_service
+  port: 8080
+
